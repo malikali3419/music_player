@@ -1,7 +1,6 @@
 import "./App.css";
 import { useContext, useEffect, useState } from "react";
 import Card from "./components/Card";
-import CreatePlaylist from "./components/CreatePlaylist";
 import { initializePlaylist } from "./initialize";
 import Navbar from "./components/Navbar";
 import { MusicContext } from "./Context";
@@ -149,8 +148,6 @@ function App() {
               Music Player
             </h1>
             <h3 className="py-5">Search any music to enjoy...</h3>
-            
-            
           </div>
         </div>
       </div>

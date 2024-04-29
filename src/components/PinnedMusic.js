@@ -14,7 +14,7 @@ function PinnedMusic() {
   }, [setpinnedMusic]);
 
   return (
-    <div className="border-radius">
+    <div>
       <div className="container" >
         {pinnedMusic.length === 0 ? (
           <div className="row">
@@ -28,7 +28,7 @@ function PinnedMusic() {
             </div>
           </div>
         ) : (
-          <div className="row border-radius">
+          <div className="row">
             {pinnedMusic.map((element) => {
               return <Card key={element.id} element={element} />;
             })}
