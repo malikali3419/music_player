@@ -12,7 +12,7 @@ const Navbar = ({ keyword, handleKeyPress, setKeyword, fetchMusicData }) => {
   const setResultOffset = musicContext.setResultOffset;
   return (
     <>
-      <nav className="navbar navbar-danger navbar-expand-lg  sticky-top" style={{background : "#4b91f7"}}>
+      <nav className="navbar navbar-expand-lg  sticky-top" style={{background : "#4b91f7"}}>
         <div className="container-fluid ">
           <Link className="navbar-brand" to="/">
             <i className="bi bi-music-note-list mx-3"></i> Music Players

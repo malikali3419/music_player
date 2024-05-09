@@ -23,6 +23,7 @@ function App() {
     setTracks([]);
     window.scrollTo(0, 0);
     setIsLoading(true);
+    console.log(resultOffset, keyword);
     try {
       const response = await fetch(
         `https://api.spotify.com/v1/search?q=${keyword}&type=track&offset=${resultOffset}`,
